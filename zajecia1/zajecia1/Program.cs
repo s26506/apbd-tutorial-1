@@ -4,6 +4,7 @@
     {
         Console.WriteLine("Start");
         Console.WriteLine("Druga");
+        Console.WriteLine("3");
     }
 }
 
