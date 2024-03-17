@@ -7,14 +7,27 @@
         Console.WriteLine("3");
     }
 
-    public static float S(int[] tablica)
+
+    public static float S(int[] tab)
     {
         float wynik = 0;
-        foreach(var elem in tablica)
+        foreach (var elem in tab)
         {
             wynik += elem;
         }
-        return wynik / tablica.Length;
+
+        return wynik / tab.Length;
+    }
+
+    public static float Sred(int[] tab)
+    {
+        float wynik = 0;
+        foreach(var elem in tab)
+        {
+            wynik += elem;
+        }
+        return wynik / tab.Length;
+>>>>>>> feature-new
     }
 
     public static int Maksymalna(int[] t)
