@@ -7,7 +7,7 @@
         Console.WriteLine("3");
     }
 
-    public static float Srednia(int[] tablica)
+    public static float S(int[] tablica)
     {
         float wynik = 0;
         foreach(var elem in tablica)
