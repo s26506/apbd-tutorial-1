@@ -7,14 +7,14 @@
         Console.WriteLine("3");
     }
 
-    public static float Sred(int[] t)
+    public static float Sred(int[] tab)
     {
         float wynik = 0;
-        foreach(var elem in t)
+        foreach(var elem in tab)
         {
             wynik += elem;
         }
-        return wynik / t.Length;
+        return wynik / tab.Length;
     }
 
     public static int Maksymalna(int[] t)
