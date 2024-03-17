@@ -7,14 +7,14 @@
         Console.WriteLine("3");
     }
 
-    public static float Srednia(int[] t)
+    public static float Srednia(int[] tablica)
     {
         float wynik = 0;
-        foreach(var elem in t)
+        foreach(var elem in tablica)
         {
             wynik += elem;
         }
-        return wynik / t.Length;
+        return wynik / tablica.Length;
     }
 
     public static int Maksymalna(int[] t)
